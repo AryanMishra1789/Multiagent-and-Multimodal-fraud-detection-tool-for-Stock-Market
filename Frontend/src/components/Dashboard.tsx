@@ -95,10 +95,10 @@ export default function Dashboard() {
       <div className="relative">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-primary-dark/10 rounded-2xl blur-3xl"></div>
         <div className="relative bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent">
-          <h1 className="text-4xl font-bold mb-2">SEBI Fraud Detection Dashboard</h1>
+          <h1 className="text-4xl font-bold mb-2">Fraud Detection Dashboard</h1>
         </div>
         <p className="text-foreground/80 text-lg font-medium mb-4">
-          Multiagent & Multimodal AI-Powered Stock Market Fraud Detection System
+          A Multiagent & Multimodal tool for Stock Market Fraud Detection
         </p>
         <div className="flex items-center gap-4">
           <Badge className="bg-gradient-to-r from-primary to-primary-dark text-white shadow-lg">
