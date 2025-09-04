@@ -1,0 +1,38 @@
+# Define Python files as the main language
+*.py linguist-detectable=true
+
+# Mark frontend files as generated/ignored for language stats
+Frontend/node_modules/** linguist-vendored
+Frontend/dist/** linguist-vendored
+Frontend/build/** linguist-vendored
+Frontend/.next/** linguist-vendored
+Frontend/out/** linguist-vendored
+
+# Mark common frontend files as generated/ignored
+*.css linguist-vendored
+*.scss linguist-vendored
+*.sass linguist-vendored
+*.less linguist-vendored
+*.json linguist-vendored
+*.lock linguist-vendored
+*.svg linguist-vendored
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.jpeg linguist-vendored
+*.gif linguist-vendored
+*.ico linguist-vendored
+*.eot linguist-vendored
+*.ttf linguist-vendored
+*.woff linguist-vendored
+*.woff2 linguist-vendored
+
+# Mark Python files as the primary language
+*.py linguist-language=Python
+
+# Mark TypeScript/JavaScript files as secondary
+*.tsx linguist-language=TypeScript
+*.ts linguist-language=TypeScript
+*.js linguist-language=JavaScript
+
+# Mark HTML as template language
+*.html linguist-language=HTML
