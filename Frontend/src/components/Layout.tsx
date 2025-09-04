@@ -65,7 +65,7 @@ export default function Layout() {
               <Shield className="h-6 w-6 text-white" />
             </div>
             <div>
-              <h1 className="text-lg font-bold text-white">SEBI Monitor</h1>
+              <h1 className="text-lg font-bold text-white">Cortex</h1>
               <p className="text-xs text-white/80">Regulatory Dashboard</p>
             </div>
           </div>
@@ -100,7 +100,6 @@ export default function Layout() {
               </div>
               <div className="flex-1">
                 <p className="text-sm font-medium text-white">Admin User</p>
-                <p className="text-xs text-white/70">Compliance Officer</p>
               </div>
             </div>
             <Button 
