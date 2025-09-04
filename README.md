@@ -62,7 +62,7 @@ Cortex is a next-generation multiagent and multimodal fraud detection system for
    - Copy `.env.example` to `.env` in the backend directory
    - Fill in your API keys and configuration
 
-4. un the FastAPI server:
+4. Run the FastAPI server:
    ```bash
    cd backend
    uvicorn main:app --reload
