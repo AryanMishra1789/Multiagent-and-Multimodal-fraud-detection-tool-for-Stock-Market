@@ -1,36 +1,31 @@
-# Force Python as the primary language
-* linguist-language=Python
-
-# Explicitly mark Python files
-*.py linguist-detectable=true
+# Mark Python files as primary
 *.py linguist-language=Python
 
-# Mark frontend directories as vendored
-Frontend/** linguist-vendored
+# Mark TypeScript/React files as secondary
+*.tsx linguist-language=TypeScript
+*.ts linguist-language=TypeScript
 
-# Mark common frontend files as vendored
-*.html linguist-vendored
-*.css linguist-vendored
-*.scss linguist-vendored
-*.sass linguist-vendored
-*.less linguist-vendored
-*.json linguist-vendored
-*.lock linguist-vendored
-*.svg linguist-vendored
-*.png linguist-vendored
-*.jpg linguist-vendored
-*.jpeg linguist-vendored
-*.gif linguist-vendored
-*.ico linguist-vendored
-*.eot linguist-vendored
-*.ttf linguist-vendored
-*.woff linguist-vendored
-*.woff2 linguist-vendored
-*.tsx linguist-vendored
-*.ts linguist-vendored
-*.js linguist-vendored
+# Mark frontend build files as vendored
+Frontend/node_modules/** linguist-vendored
+Frontend/dist/** linguist-vendored
+Frontend/build/** linguist-vendored
 
-# Mark specific directories as documentation/docs
-Frontend/src/**/*.tsx linguist-documentation
-Frontend/src/**/*.ts linguist-documentation
-Frontend/src/**/*.js linguist-documentation
+# Mark common frontend files as documentation
+*.css linguist-documentation
+*.scss linguist-documentation
+*.sass linguist-documentation
+*.less linguist-documentation
+*.json linguist-documentation
+*.svg linguist-documentation
+*.png linguist-documentation
+*.jpg linguist-documentation
+*.jpeg linguist-documentation
+*.gif linguist-documentation
+*.ico linguist-documentation
+*.eot linguist-documentation
+*.ttf linguist-documentation
+*.woff linguist-documentation
+*.woff2 linguist-documentation
+
+# Mark HTML as documentation
+*.html linguist-documentation
