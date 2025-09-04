@@ -47,8 +47,8 @@ Cortex is a next-generation multiagent and multimodal fraud detection system for
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/stock-market-fraud-detection.git
-   cd stock-market-fraud-detection
+   git clone https://github.com/AryanMishra1789/Multiagent-and-Multimodal-fraud-detection-tool-for-Stock-Market.git
+   cd Multiagent-and-Multimodal-fraud-detection-tool-for-Stock-Market
    ```
 
 2. Set up a virtual environment and install dependencies:
@@ -62,15 +62,15 @@ Cortex is a next-generation multiagent and multimodal fraud detection system for
    - Copy `.env.example` to `.env` in the backend directory
    - Fill in your API keys and configuration
 
-4. Initialize the database:
+4. un the FastAPI server:
    ```bash
    cd backend
-   python database_management.py
+   uvicorn main:app --reload
    ```
 
-5. Run the backend server:
+5. Access the API documentation at:
    ```bash
-   python main.py
+   http://127.0.0.1:8000/docs
    ```
 
 ### Frontend Setup
