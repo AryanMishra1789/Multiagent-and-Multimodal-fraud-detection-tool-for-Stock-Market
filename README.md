@@ -21,7 +21,7 @@ Cortex is a next-generation multiagent and multimodal fraud detection system for
 
 ### Backend (Python)
 - **Backend**: FastAPI, Scikit-learn, Pandas, Numpy
-- **Gen AI**: Langchain for LLM Orchestration, RAG, Gemini LLM
+- **Gen AI**: Langchain for LLM Orchestration, RAG, Gemini LLM, Whisper
 - **AI/ML**: Custom Agents, NLP, ChromaDB, Transformers, PyTorch
 - **Data Scrapping and Integration**: BeautifulSoup4, lxml, requests, aiohttp
 - **APIs**: Telegram, Reddit, Discord, YFinance, Wikipedia
