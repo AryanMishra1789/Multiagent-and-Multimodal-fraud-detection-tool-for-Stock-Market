@@ -1,24 +1,30 @@
 # Multi-agent and Multimodal Fraud Detection Tool for Stock Market
 
-A comprehensive fraud detection system that leverages multiple verification agents and data sources to identify potential stock market fraud, including pump-and-dump schemes, fake news, and suspicious corporate announcements.
+Cortex is a next-generation multiagent and multimodal fraud detection system for securities markets. Built on LangChain orchestration, Retrieval-Augmented Generation (RAG) pipelines, and  LLM, it combines regulatory scraping, historical and current market data analysis, and real-time social media monitoring to deliver explainable fraud detection and investor protection.
 
-## 🚀 Features
+## Demo Video
 
-- **Multi-platform Monitoring**: Tracks Telegram, Reddit, and Discord for suspicious activities
-- **Corporate Announcement Analysis**: Verifies corporate announcements against multiple sources
-- **Sentiment Analysis**: Detects market manipulation through sentiment analysis
-- **Regulatory Compliance**: Cross-references with SEBI database and other regulatory sources
-- **Hybrid Verification**: Combines AI and rule-based verification for accurate results
-- **Real-time Alerts**: Provides instant notifications for potential fraud cases
+[![Watch the demo](https://img.youtube.com/vi/Q-WyjknTGEU/maxresdefault.jpg)](https://www.youtube.com/watch?v=Q-WyjknTGEU)
 
-## 🛠️ Tech Stack
+*Click the thumbnail above to watch the demo on YouTube*
+
+## Features
+
+- **AI Agent Architecture**: Modular agents for audio, video, text, docs, and social media. Perform deepfake checks, sentiment analysis, compliance, and collaborate for holistic risk assessment.
+- **Multi-Modal Verification**: Layered checks on uploads—authenticity, fraud patterns, compliance—across all content types. Outputs unified risk score with clear reasoning.
+- **Real-Time Multi Platform Monitoring**: Scans Telegram, Reddit for pump-and-dump, fake tips, misinformation. Links threats to market activity and flags instantly.
+- **RAG Integration**: Pulls latest rules, advisories, and fraud data from trusted sources to keep AI decisions accurate and context-aware.
+- **Explainable Results:**: Every flag includes reasoning with references, showing what was flagged, why, and next steps.
+
+## Tech Stack
 
 ### Backend (Python)
-- **Frameworks**: FastAPI, SQLAlchemy
-- **AI/ML**: Transformers, Scikit-learn, PyTorch
-- **Data Processing**: Pandas, NumPy
+- **Backend**: FastAPI, Scikit-learn, Pandas, Numpy
+- **Gen AI**: Langchain for LLM Orchestration, RAG, Gemini LLM
+- **AI/ML**: Custom Agents, NLP, ChromaDB, Transformers, PyTorch
+- **Data Scrapping and Integration**: BeautifulSoup4, lxml, requests, aiohttp
 - **APIs**: Telegram, Reddit, Discord, YFinance, Wikipedia
-- **Database**: SQLite (development), PostgreSQL (production-ready)
+- **Database**: SQLite
 
 ### Frontend (React + TypeScript)
 - **UI Framework**: React 18
@@ -27,7 +33,7 @@ A comprehensive fraud detection system that leverages multiple verification agen
 - **Form Handling**: React Hook Form
 - **UI Components**: Radix UI
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -83,7 +89,7 @@ A comprehensive fraud detection system that leverages multiple verification agen
    npm run dev
    ```
 
-## 📊 Project Structure
+## Project Structure
 
 ```
 .
@@ -101,24 +107,9 @@ A comprehensive fraud detection system that leverages multiple verification agen
 └── README.md            # This file
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - SEBI for regulatory data
 - OpenAI for language models
 - All open-source libraries used in this project
 
-## 📧 Contact
-
-For any queries, please contact [Your Email] or open an issue on GitHub.
