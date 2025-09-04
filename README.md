@@ -2,6 +2,11 @@
 
 Cortex is a next-generation multiagent and multimodal fraud detection system for securities markets. Built on LangChain orchestration, Retrieval-Augmented Generation (RAG) pipelines, and  LLM, it combines regulatory scraping, historical and current market data analysis, and real-time social media monitoring to deliver explainable fraud detection and investor protection.
 
+## Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/Q-WyjknTGEU/maxresdefault.jpg)](https://www.youtube.com/watch?v=Q-WyjknTGEU)
+
+*Click the thumbnail above to watch the demo on YouTube*
 
 
 ## Features
