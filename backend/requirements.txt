@@ -1,4 +1,3 @@
-# SEBI Hackathon Stock Market Fraud Detection System
 # Core Framework
 fastapi==0.103.1
 uvicorn==0.23.2
@@ -76,3 +75,14 @@ pytest==7.4.0
 # Concurrency and Async
 asyncio==3.4.3
 aiofiles==23.2.1
+
+openai-whisper
+pip install deepface
+moviepy
+opencv-python
+deepface
+pyAudioAnalysis
+
+tf-keras
+eyed3
+pydub
