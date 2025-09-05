@@ -1,6 +1,6 @@
 # Multi-agent and Multimodal Fraud Detection Tool for Stock Market
 
-Cortex is a next-generation multiagent and multimodal fraud detection system for securities markets. Built on LangChain orchestration, Retrieval-Augmented Generation (RAG) pipelines, and  LLM, it combines regulatory scraping, historical and current market data analysis, and real-time social media monitoring to deliver explainable fraud detection and investor protection.
+Cortex is a multiagent, multimodal fraud detection prototype for securities markets. Built using LangChain orchestration, RAG pipelines, and LLMs, it integrates real-time data from social media and user-uploaded text, documents, audio, and video. Cortex cross-verifies content from regulatory databases, corporate announcements, and both historical and current market data, enabling comprehensive multimodal content verification. The system delivers credibility scores, detailed explanations, and regulatory compliance checks, providing a practical early-warning and investigation tool.
 
 ## Presentation Slides: [Click here to View Presentation Slides](https://www.canva.com/design/DAGwoUsUfvY/lqo8cGMFmVcFRtdRwQQuWA/edit?utm_content=DAGwoUsUfvY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
