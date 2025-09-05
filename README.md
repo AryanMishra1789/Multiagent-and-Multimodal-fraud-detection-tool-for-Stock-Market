@@ -8,7 +8,7 @@ Cortex is a next-generation multiagent and multimodal fraud detection system for
 
 [![Watch the demo](https://img.youtube.com/vi/Q-WyjknTGEU/maxresdefault.jpg)](https://www.youtube.com/watch?v=Q-WyjknTGEU)
 
-*Kindly Click the thumbnail above to watch the demo on YouTube*
+**Kindly Click the thumbnail above to watch the demo on YouTube**
 
 
 ## Features
